@@ -117,12 +117,21 @@
 	border-style: solid;
 	border-width: 1px;
 	border-color: #5E676E;
+	overflow: hidden;
 }
+.gallery-thumb-container a,
 .gallery-thumb-container img{
+	border: 0;
 	width: 140px;
 	height: 140px;
 	background: #ccc;
+	display: block;
+	float: left;
 }
+
+.gallery-full-images {
+	display: none;
+}	
 
 .gallery-description{
 	text-align: justify;

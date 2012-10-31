@@ -1,11 +1,27 @@
 <html>
 <head>
-	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="styles.css">
+
+
+	<link rel="stylesheet" href="assets/fancybox/jquery.fancybox.css?v=2.1.3" type="text/css" media="screen" />
+	<link rel="stylesheet" href="assets/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+	<link rel="stylesheet" href="assets/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+
+	<script type="text/javascript" src="assets/fancybox/jquery.fancybox.pack.js?v=2.1.3"></script>
+	<script type="text/javascript" src="assets/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+	<script type="text/javascript" src="assets/fancybox/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
+	<script type="text/javascript" src="assets/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+	<script type="text/javascript">
+		$(function() {
+			$(".fancybox").fancybox();
+		});
+	</script>
 </head>
 	<body style='background-color: #c3dce0'>
 		<div id='body' class='container'>
-			<div id=contact-us>Contact Us<br>714-403-0169<br>pamelacondondesign@gmail.com</div>
+			<div id=contact-us>Contact Us<br>714-336-8919<br>pamelacondondesign@gmail.com</div>
 			<ul id='main-navigation'>
 				<li><a href='home.html'>Home</a></li>
 				<li><a class='active' href='gallery.html'>Gallery</a></li>
@@ -22,10 +38,23 @@
 						The hidden gem of The Hacienda provided a beautiful backdrop to this spanish Style wedding. The bright pinks and soft peonies were a beautiful compliment to the bride's lace dress.
 					</span>
 					<div class='gallery-thumb-container'>
-						<img src='images/thumbs/hacienda/thumb-bride.png' alt='bride'><!--
-						--><img src='images/thumbs/hacienda/thumb-bride-and-bridesmaid.png' alt='bride and her bridesmaid'>
-						<img src='images/thumbs/hacienda/thumb-cake-close.png' alt='cake'><!--
-						--><img src='images/thumbs/hacienda/thumb-hair-flowers.png' alt='flowers in hair'>
+						<a href='images/galleries/hacienda/bride.jpg' class='fancybox' rel="hacienda">
+							<img src='images/thumbs/hacienda/thumb-bride.png' alt='bride'>
+						</a>
+						<a href='images/galleries/hacienda/bride-and-bridesmaid.jpg' class='fancybox' rel="hacienda">
+							<img src='images/thumbs/hacienda/thumb-bride-and-bridesmaid.png' alt='bride and her bridesmaid'>
+						</a>
+						<a href='images/galleries/hacienda/cake-close.jpg' class='fancybox' rel="hacienda">
+							<img src='images/thumbs/hacienda/thumb-cake-close.png' alt='cake'>
+						</a>
+						<a href='images/galleries/hacienda/hair-flowers.jpg' class='fancybox' rel="hacienda1">
+							<img src='images/thumbs/hacienda/thumb-hair-flowers.png' alt='flowers in hair'>
+						</a>
+						<div class='gallery-full-images'>
+							<a href='images/galleries/hacienda/cake.jpg' class='fancybox' rel="hacienda"></a>
+							<a href='images/galleries/hacienda/dessert-close.jpg' class='fancybox' rel="hacienda"></a>
+							<a href='images/galleries/hacienda/dessert.jpg' class='fancybox' rel="hacienda"></a>
+						</div>
 					</div>
 				</div>
 				<div class='span4 gallery-description'> 
@@ -34,10 +63,26 @@
 						Grapevines and wine barrels were a beautiful backdrop to this vineyard wedding. the orchids and peonies were beautiful. and some more stuff. and some more stuff. and some more stuff.
 					</span>
 					<div class='gallery-thumb-container'>
-						<img src='images/thumbs/temecula/thumb-bride.png' alt='bride'><!--
-						--><img src='images/thumbs/temecula/thumb-bride-and-groom-close.png' alt='bride and groom'>
-						<img src='images/thumbs/temecula/thumb-cocktail-centerpeice.png' alt='cocktail hour centerpeice'><!--
-						--><img src='images/thumbs/temecula/thumb-dessert.png' alt='dessert table'>
+						<a href='images/galleries/temecula/bride.jpg' class='fancybox' rel="temecula">
+							<img src='images/thumbs/temecula/thumb-bride.png' alt='bride'>
+						</a>	
+						<a href='images/galleries/temecula/bride-and-groom.jpg' class='fancybox' rel="temecula">
+							<img src='images/thumbs/temecula/thumb-bride-and-groom-close.png' alt='bride and groom'>
+						</a>		
+						<a href='images/galleries/temecula/cocktail-centerpiece.jpg' class='fancybox' rel="temecula">	
+							<img src='images/thumbs/temecula/thumb-cocktail-centerpiece.png' alt='cocktail hour centerpeice'>
+						</a>		
+						<a href='images/galleries/temecula/dessert.jpg' class='fancybox' rel="temecula">	
+							<img src='images/thumbs/temecula/thumb-dessert.png' alt='dessert table'>
+						</a>
+						<div class='gallery-full-images'>
+							<a href='images/galleries/temecula/bride-and-groom-close.jpg' class='fancybox' rel="temecula"></a>
+							<a href='images/galleries/temecula/bride-and-bridesmaids.jpg' class='fancybox' rel="temecula"></a>
+							<a href='images/galleries/temecula/bridal-party.jpg' class='fancybox' rel="temecula"></a>
+							<a href='images/galleries/temecula/centerpiece.jpg' class='fancybox' rel="temecula"></a>
+							<a href='images/galleries/temecula/boquet.jpg' class='fancybox' rel="temecula"></a>
+							<a href='images/galleries/temecula/tables.jpg' class='fancybox' rel="temecula"></a>
+						</div>	
 					</div>
 				</div>
 				<div class='span4 gallery-description'> 
@@ -46,10 +91,22 @@
 						This is text about the wedding. This is text about the wedding. This is text about the wedding. This is text about the wedding. This is text about the wedding. This is text about the wedding.
 					</span>
 					<div class='gallery-thumb-container'>
-						<img src='images/thumbs/long_beach/thumb-bride.png' alt='bride'><!--
-						--><img src='images/thumbs/long_beach/thumb-groom.png' alt='groom'>
-						<img src='images/thumbs/long_beach/thumb-bride-boquet.png' alt='bride boquet'><!--
-						--><img src='images/thumbs/long_beach/thumb-cake.png' alt='cake'>
+						<a href='images/galleries/long_beach/bride.jpg' class='fancybox' rel="long_beach">
+							<img src='images/thumbs/long_beach/thumb-bride.png' alt='bride'>
+						</a>
+						<a href='images/galleries/long_beach/groom.jpg' class='fancybox' rel="long_beach">
+							<img src='images/thumbs/long_beach/thumb-groom.png' alt='groom'>
+						</a>
+						<a href='images/galleries/long_beach/bride-boquet.jpg' class='fancybox' rel="long_beach">
+							<img src='images/thumbs/long_beach/thumb-bride-boquet.png' alt='bride boquet'>
+						</a>
+						<a href='images/galleries/long_beach/cake.jpg' class='fancybox' rel="long_beach">
+							<img src='images/thumbs/long_beach/thumb-cake.png' alt='cake'>
+						</a>
+						<div class='gallery-full-images'>
+							<a href='images/galleries/long_beach/bride-and-groom.jpg' class='fancybox' rel="long_beach"></a>
+							<a href='images/galleries/long_beach/centerpiece.jpg' class='fancybox' rel="long_beach"></a>
+						</div>	
 					</div>
 				</div>
 			</div>	
@@ -60,10 +117,25 @@
 						Beautiful pink themed wedding at the historical Don CeSar Hotel at St. Pete Beach, Florida. The pink Hotel provided a romantic backdrop for this destination wedding. 
 					</span>
 					<div class='gallery-thumb-container'>
-						<img src='images/thumbs/don_cesar/thumb-bride-and-groom.png' alt='bride and groom'><!--
-						--><img src='images/thumbs/don_cesar/thumb-arch-close.jpg' alt='floral arch'>
-						<img src='images/thumbs/don_cesar/thumb-aislepieces.png' alt='aislepieces'><!--
-						--><img src='images/thumbs/don_cesar/thumb-table.png' alt='tablescape'>
+						<a href='images/galleries/don_cesar/bride-and-groom.jpg' class='fancybox' rel="don_cesar">	
+							<img src='images/thumbs/don_cesar/thumb-bride-and-groom.png' alt='bride and groom'>
+						</a>	
+						<a href='images/galleries/don_cesar/arch-close.jpg' class='fancybox' rel="don_cesar">
+							<img src='images/thumbs/don_cesar/thumb-arch-close.jpg' alt='floral arch'>
+						</a>	
+						<a href='images/galleries/don_cesar/aislepieces.jpg' class='fancybox' rel="don_cesar">
+							<img src='images/thumbs/don_cesar/thumb-aislepieces.png' alt='aislepieces'>
+						</a>	
+						<a href='images/galleries/don_cesar/table.jpg' class='fancybox' rel="don_cesar">
+							<img src='images/thumbs/don_cesar/thumb-table.png' alt='tablescape'>
+						</a>
+						<div class='gallery-full-images'>
+							<a href='images/galleries/don_cesar/arch.jpg' class='fancybox' rel="don_cesar"></a>
+							<a href='images/galleries/don_cesar/bride-and-bridesmaids.jpg' class='fancybox' rel="don_cesar"></a>
+							<a href='images/galleries/don_cesar/bridesmaid.jpg' class='fancybox' rel="don_cesar"></a>
+							<a href='images/galleries/don_cesar/cocktail-table.jpg' class='fancybox' rel="don_cesar"></a>
+							<a href='images/galleries/don_cesar/low-centerpiece.jpg' class='fancybox' rel="don_cesar"></a>
+						</div>	
 					</div>
 				</div>
 				<div class='span4 gallery-description'> 
@@ -71,10 +143,21 @@
 					<span>
 						Pink and white roses were the focal point for this classic and romantic wedding. Touches of This is text about the wedding. This is text about the wedding. 
 					<div class='gallery-thumb-container'>
-						<img src='images/thumbs/corona_del_mar/thumb-bride.png' alt='bride'><!--
-						--><img src='images/thumbs/corona_del_mar/thumb-bride-and-groom-close.png' alt='bride and groom'>
-						<img src='images/thumbs/corona_del_mar/thumb-first-look.png' alt='first-look'><!--
-						--><img src='images/thumbs/corona_del_mar/thumb-bride-and-groom-boquet.png' alt='bride and groom with boquet'>
+						<a href='images/galleries/corona_del_mar/bride.jpg' class='fancybox' rel="corona_del_mar">	
+							<img src='images/thumbs/corona_del_mar/thumb-bride.png' alt='bride'>
+						</a>	
+						<a href='images/galleries/corona_del_mar/bride-and-groom-close.jpg' class='fancybox' rel="corona_del_mar">
+							<img src='images/thumbs/corona_del_mar/thumb-bride-and-groom-close.png' alt='bride and groom'>
+						</a>	
+						<a href='images/galleries/corona_del_mar/first-look.jpg' class='fancybox' rel="corona_del_mar">
+							<img src='images/thumbs/corona_del_mar/thumb-first-look.png' alt='first-look'>
+						</a>	
+						<a href='images/galleries/corona_del_mar/bride-and-groom-boquet.png' class='fancybox' rel="corona_del_mar">
+							<img src='images/thumbs/corona_del_mar/thumb-bride-and-groom-boquet.png' alt='bride and groom with boquet'>
+						</a>
+						<div class='gallery-full-images'>
+							<a href='images/galleries/corona_del_mar/bride-and-groom.jpg' class='fancybox' rel="corona_del_mar"></a>
+						</div>		
 					</div>
 				</div>
 				<div class='span4 gallery-description'> 
@@ -83,10 +166,25 @@
 						This is text about the wedding. This is text about the wedding. This is text about the wedding. This is text about the wedding.This is text about the
 					</span>
 					<div class='gallery-thumb-container'>
-						<img src='images/thumbs/pelican_hill/thumb-bridesmaid.png' alt='bridesmaid'><!--
-						--><img src='images/thumbs/pelican_hill/thumb-hanging-balls.png' alt='hanging balls'>
-						<img src='images/thumbs/pelican_hill/thumb-cocktail-centerpiece-close.png' alt='cocktail hour centerpiece'><!--
-						--><img src='images/thumbs/pelican_hill/thumb-cocktail.png' alt='cocktail hour seating'>
+						<a href='images/galleries/pelican_hill/bridesmaid.jpeg' class='fancybox' rel="pelican_hill">	
+							<img src='images/thumbs/pelican_hill/thumb-bridesmaid.png' alt='bridesmaid'>
+						</a>	
+						<a href='images/galleries/pelican_hill/hanging-balls.jpeg' class='fancybox' rel="pelican_hill">
+							<img src='images/thumbs/pelican_hill/thumb-hanging-balls.png' alt='hanging balls'>
+						</a>	
+						<a href='images/galleries/pelican_hill/cocktail-centerpiece-close.jpeg' class='fancybox' rel="pelican_hill">
+							<img src='images/thumbs/pelican_hill/thumb-cocktail-centerpiece-close.png' alt='cocktail hour centerpiece'>
+						</a>	
+						<a href='images/galleries/pelican_hill/cocktail.jpeg' class='fancybox' rel="pelican_hill">
+							<img src='images/thumbs/pelican_hill/thumb-cocktail.png' alt='cocktail hour seating'>
+						</a>	
+						<div class='gallery-full-images'>
+							<a href='images/galleries/pelican_hill/bridesmaids.jpeg' class='fancybox' rel="pelican_hill"></a>
+							<a href='images/galleries/pelican_hill/flower-girl.jpeg' class='fancybox' rel="pelican_hill"></a>
+							<a href='images/galleries/pelican_hill/cake.jpeg' class='fancybox' rel="pelican_hill"></a>
+							<a href='images/galleries/pelican_hill/guestbook.jpeg' class='fancybox' rel="pelican_hill"></a>
+							<a href='images/galleries/pelican_hill/cocktail-centerpiece.jpeg' class='fancybox' rel="pelican_hill"></a>
+						</div>		
 					</div>
 				</div>
 			</div>
@@ -97,10 +195,21 @@
 						This is text about the wedding. This is text about the wedding. This is text about the wedding. This is text about the wedding.
 					</span>
 					<div class='gallery-thumb-container'>
-						<img src='images/thumbs/elopement/thumb-bride-and-groom-wall.png' alt='bride and groom'><!--
-						--><img src='images/thumbs/elopement/thumb-bride-and-groom-under-pier.png' alt='bride and groom under pier'>
-						<img src='images/thumbs/elopement/thumb-bride-and-groom-pier.png' alt='bride and groom on pier'><!--
-						--><img src='images/thumbs/elopement/thumb-bride.png' alt='bride'>
+						<a href='images/galleries/elopement/bride-and-groom-wall.jpg' class='fancybox' rel="elopement">	
+							<img src='images/thumbs/elopement/thumb-bride-and-groom-wall.png' alt='bride and groom'>
+						</a>	
+						<a href='images/galleries/elopement/bride-and-groom-under-pier.jpg' class='fancybox' rel="elopement">
+							<img src='images/thumbs/elopement/thumb-bride-and-groom-under-pier.png' alt='bride and groom under pier'>
+						</a>	
+						<a href='images/galleries/elopement/bride-and-groom-pier.jpg' class='fancybox' rel="elopement">
+							<img src='images/thumbs/elopement/thumb-bride-and-groom-pier.png' alt='bride and groom on pier'>
+						</a>	
+						<a href='images/galleries/elopement/bride.jpg' class='fancybox' rel="elopement">
+							<img src='images/thumbs/elopement/thumb-bride.png' alt='bride'>
+						</a>
+						<div class='gallery-full-images'>
+							<a href='images/galleries/elopement/bride-and-groom-wall.jpg' class='fancybox' rel="elopement"></a>
+						</div>
 					</div>
 				</div>
 			</div>	
