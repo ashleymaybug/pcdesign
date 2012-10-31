@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Ostrich';
+    src: url('fonts/Ostrich/ostrich-light-webfont.eot');
+    src: url('fonts/Ostrich/ostrich-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Ostrich/ostrich-light-webfont.woff') format('woff'),
+         url('fonts/Ostrich/ostrich-light-webfont.ttf') format('truetype'),
+         url('fonts/Ostrich/ostrich-light-webfont.svg#OstrichSansMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#body {
+	margin-top: 50px; 
+	background-color: #f9f6e7; 
+	padding: 25px 10px; 
+	-webkit-box-shadow: 0px 0px 30px rgba(50, 50, 50, 0.6);
+	-moz-box-shadow:    0px 0px 30px rgba(50, 50, 50, 0.6);
+	box-shadow:         0px 0px 30px rgba(50, 50, 50, 0.6);
+}
+
+#contact-us{
+	font-family: 'Ostrich', sans-serif;
+	font-size: 18px;
+	line-height: 18px;
+	text-align: right;
+	float: right;
+	letter-spacing: 1px;
+	color: #5E676E;
+	font-weight: bold;
+	margin-top:-10px;
+
+}
+
+#main-header-text{
+	font-family: 'Ostrich', sans-serif;
+	font-size: 120px;
+	line-height: 100px;
+	text-align: center;
+	color: #393e42;
+	letter-spacing: 4px;
+	margin: 35px 0 15px 0;
+}
+
+#intro-image {
+	width: 100%; 
+	height: 386px; 
+	background: transparent url(images/intro-image.jpg); 
+	border-top: 1px solid #9A9FA3;
+}
+
+#sub-header-text{
+	font-family: 'Ostrich', sans-serif;
+	font-size: 42px;
+	line-height: 36px;
+	text-align: center;
+	color: #393e42;
+	letter-spacing: 4px;
+	margin-top: 0px;
+}
+
+.theme-font,
+.row{
+	font-family: 'Ostrich', sans-serif;
+	color: #393e42;
+}
+
+#main-navigation {
+	list-style-type: none;
+	height:39px; 
+	margin: 0 0 5px;
+}
+
+#main-navigation li {
+	float: left;
+	margin-right: 5px;
+
+}
+
+#main-navigation a {
+	text-decoration: none;
+	line-height: 30px;
+	font-size: 30px;
+	font-family: "Ostrich", sans-serif;
+	color: #393e42;
+	letter-spacing: 1px;
+	font-weight: bold;
+	background-color: #ffffff;
+	display: block;
+	padding: 8px 8px 1px;
+	-webkit-transition:color .3s ease-in;  
+   -moz-transition:color .3s ease-in;  
+   -o-transition:color .3s ease-in;  
+   transition:color .3s ease-in; 
+   -webkit-transition:background-color .3s ease-in;  
+   -moz-transition:background-color .3s ease-in;  
+   -o-transition:background-color .3s ease-in;  
+   transition:background-color .3s ease-in; 
+}
+
+#main-navigation a:hover, 
+#main-navigation a.active {
+	background-color: #393e42;
+	color: #f9f6e7;
+}
+
+.justify {
+	text-align: justify;
+	font-size: 24px;
+	line-height: 24px;
+	letter-spacing: 1px;
+	font-weight: bold;
+
+}
+.gallery-thumb-container {
+	margin: 0 9px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #5E676E;
+}
+.gallery-thumb-container img{
+	width: 140px;
+	height: 140px;
+	background: #ccc;
+}
+
+.gallery-description{
+	text-align: justify;
+	font-size: 16px;
+	line-height: 16px;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+
+.row{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+#about-us-body{
+	margin-bottom: 60px;
+}
+
