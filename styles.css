@@ -9,9 +9,21 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Colaborate';
+    src: url('fonts/Colaborate/ColabThi-webfont.eot');
+    src: url('fonts/Colaborate/ColabThi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Colaborate/ColabThi-webfont.woff') format('woff'),
+         url('fonts/Colaborate/ColabThi-webfont.ttf') format('truetype'),
+         url('fonts/Colaborate/ColabThi-webfont.svg#ColaborateThinRegular') format('svg');
+    font-weight: lighter;
+    font-style: normal;
+
+}
 
 #body {
-	margin-top: 50px; 
+	margin-top: 50px;
+	margin-bottom: 50px; 
 	background-color: #f9f6e7; 
 	padding: 25px 10px; 
 	-webkit-box-shadow: 0px 0px 30px rgba(50, 50, 50, 0.6);
@@ -59,10 +71,15 @@
 	margin-top: 0px;
 }
 
-.theme-font,
-.row{
+.theme-font{
 	font-family: 'Ostrich', sans-serif;
 	color: #393e42;
+}
+
+.theme-font2{
+	font-family: 'Colaborate', sans-serif;
+	color: #393e42;
+
 }
 
 #main-navigation {
@@ -106,10 +123,9 @@
 
 .justify {
 	text-align: justify;
-	font-size: 24px;
-	line-height: 24px;
+	font-size: 16px;
+	line-height: 16px;
 	letter-spacing: 1px;
-	font-weight: bold;
 
 }
 .gallery-thumb-container {
@@ -138,9 +154,34 @@
 	font-size: 16px;
 	line-height: 16px;
 	letter-spacing: 1px;
-	font-weight: bold;
 }
 
+.home-links a,
+.home-links img{
+	border: 0;
+	width: 280px;
+	height: 280px;
+	background: #ccc;
+	display: block;
+	float: left;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #5E676E;
+}
+
+.home-contact-us {
+	width: 280px;
+	height: 280px;
+	font-family: 'Ostrich', sans-serif;
+	font-size: 30px;
+	line-height: 30px;
+	text-align: center;
+	float: right;
+	letter-spacing: 1px;
+	color: #393e42;
+	font-weight: bold;
+	margin-top: 10px;	
+}	
 
 .row{
 	margin-top: 20px;
@@ -151,3 +192,10 @@
 	margin-bottom: 60px;
 }
 
+#home-body{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 36px;
+	line-height: 36px;
+	text-align: center;
+}
